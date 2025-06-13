@@ -16,7 +16,7 @@ Drop in your own OpenAI API key and you’re off. I used it to debug and build a
 
 At first it just spat out a finished Simulink file, but I wanted that ChatGPT “walk-through” vibe make it feel 'magical'. So I added a couple of for loops: one to drop in blocks step-by-step, and another to wire them up.
 
-Since raw code isn’t visible in Simulink (to the best of my knowledge), within one of my scripts I had it walk through the simulink file and screenshot each stage, pipe them through the LLM, and let it spot inconsistencies. Works better than I expected. Perhaps someone can do better or find a better way?
+Since raw code isn’t visible in Simulink (to the best of my knowledge), within one of my scripts I had it walk through the simulink file and screenshot each stage leveraging the fact openAI's API is multimodal, pipe them through the LLM, and let it spot inconsistencies. Works better than I expected. Perhaps someone can do better or find a better way?
 
 Youtube video of me using it is https://youtu.be/TX0fviaFSyg
 

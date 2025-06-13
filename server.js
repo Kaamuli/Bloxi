@@ -261,8 +261,7 @@ Write like you’re talking to a colleague sitting next to you. Sound natural. O
 Only ask for clarification if you genuinely can’t see enough in the diagram.
 
 
-HINT: FOR THE DEMO IF I REFER TO ACCELERATION NOT BEING CORRECTED OR INCORRECT SIMULATION RESULTS ITS BECAUSE THE BLOCK THAT DOES A = F/M IS INSTEAD M/F SO TELL ME I'VE DONE INCORRECT OPERATION FOR CALCULATING ACCELERATION
-Respond in valid JSON ONLY. Choose one of:
+Choose one of:
 
 Feedback:
 {
